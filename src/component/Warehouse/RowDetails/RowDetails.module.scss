@@ -1,0 +1,34 @@
+.innerTable {
+  width: 100%;
+  border-collapse: 1px solid #000;
+  text-align: right;
+  font-size: 0.5rem;
+  th,
+  td {
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 0.85rem;
+  }
+  thead th {
+    background: #f0f4ff;
+    font-weight: 600;
+  }
+}
+
+.status {
+  color: #0077ee;
+  background-color: #96bee6;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  padding: 0.2rem 0.8rem;
+}
+
+.editBtn {
+  background-color: transparent;
+  color: #0077ee;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
